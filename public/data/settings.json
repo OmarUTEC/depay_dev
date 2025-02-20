@@ -6,11 +6,11 @@
     "preloader": {
         "enabled": false,
         "title": "React <b>Portfolio</b>",
-        "subtitle": "by Ryan Balieiro"
+        "subtitle": "by Omar CH"
     },
 
     "profile": {
-        "name": "Mark Choi",
+        "name": "OMAR CH",
         "stylizedName": "<strong>Omar **CHAVARRIA**</strong>",
         "logoUrl": "images/svg/logo.svg",
         "profilePictureUrl": "images/pictures/avatar2.jpg",
