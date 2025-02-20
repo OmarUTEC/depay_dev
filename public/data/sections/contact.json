@@ -1,0 +1,134 @@
+{
+    "locales": {
+        "en": {
+            "title": "Contact",
+            "title_long_prefix": "Contact",
+            "title_long": "**Social** Media"
+        },
+
+        "es": {
+            "title": "Contacto",
+            "title_long_prefix": "Contacto",
+            "title_long": "**Redes** Sociales"
+        }
+    },
+
+    "articles": [
+
+        {
+            "id": "contact_list",
+            "component": "ArticleGrid",
+            "config": {
+                "format": "grid"
+            },
+
+            "items": [
+                {
+                    "value": "+1 (126) 456-7892",
+                    "links": [
+                        {"href": "tel:11264567892"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-phone",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {"title": "Phone"},
+                        "es": {"title": "Teléfono"}
+                    }
+                },
+
+                {
+                    "value": "depay_dev@email.com",
+                    "links": [
+                        {"href": "mailto:depay_dev@email.com"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-envelope",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {"title": "E-mail"}
+                    }
+                },
+
+                {
+                    "value": "@omarch",
+                    "links": [
+                        {"href": "https://www.linkedin.com/in/omar-chavarria-57b145237/"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-linkedin",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {"title": "Linkedin"}
+                    }
+                },
+
+                {
+                    "value": "@omarch",
+                    "links": [
+                        {"href": "https://github.com/OmarUTEC"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-github",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {"title": "GitHub"}
+                    }
+                },
+
+                {
+                    "value": "Depay Dev",
+                    "links": [
+                        {"href": "https://facebook.com"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-facebook",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {"title": "Facebook"}
+                    }
+                },
+
+                {
+                    "value": "@omarch",
+                    "links": [
+                        {"href": "https://instagram.com"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-instagram",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {"title": "Instagram"}
+                    }
+                },
+
+                {
+                    "value": "@omarch",
+                    "links": [
+                        {"href": "https://tiktok.com"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-tiktok",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {"title": "TikTok"}
+                    }
+                }
+            ]
+        }
+    ]
+}

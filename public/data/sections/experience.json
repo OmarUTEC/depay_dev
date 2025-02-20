@@ -1,0 +1,52 @@
+{
+    "locales": {
+        "en": {
+            "title": "Experience",
+            "title_long_prefix": "Summary of my",
+            "title_long": "**Work** Experience"
+        },
+
+        "es": {
+            "title": "Experiencia",
+            "title_long_prefix": "Resumen de mi",
+            "title_long": "Experiencia **Laboral**"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "work",
+            "component": "ArticleTimeline",
+            "config": {},
+            "locales": {},
+
+            "items": [
+                {
+                    "icon": {
+                        "img": "images/pictures/CPAIA-Logo.png",
+                        "fa": "",
+                        "faColors": {"bg": "#111", "fill": "#EEE"}
+                    },
+                    "dates": {
+                        "start": "02/01/2025",
+                        "end": "now"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Dirección de Emprendimiento y Startups**",
+                            "info": "Cámara Peruana de Inteligencia Artificial",
+                            "text": "",
+                            "tags": ["Artificial Intelligence", "Startups"]
+                        },
+                        "es": {
+                            "title": "**Dirección de Emprendimiento y Startups**",
+                            "info": "Cámara Peruana de Inteligencia Artificial",
+                            "text": "",
+                            "tags": ["Inteligencia Artificial", "Startups"]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

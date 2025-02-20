@@ -1,0 +1,122 @@
+{
+    "locales": {
+        "en": {
+            "title": "Portfolio",
+            "title_long_prefix": "Take a look at",
+            "title_long": "My **Portfolio**"
+        },
+
+        "es": {
+            "title": "Portafolio",
+            "title_long_prefix": "Explora",
+            "title_long": "Mi **Portafolio**"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "portfolio",
+            "component": "ArticlePortfolio",
+            "config": {},
+            "locales": {},
+
+            "categories": [
+                {
+                    "id": "apps",
+                    "locales": {
+                        "en": {"singular": "App", "plural": "Apps"},
+                        "es": {"singular": "App", "plural": "Apps"}
+                    }
+                },
+                {
+                    "id": "websites",
+                    "locales": {
+                        "en": {"singular": "Website", "plural": "Web"},
+                        "es": {"singular": "Sitio web", "plural": "Web"}
+                    }
+                },
+                {
+                    "id": "utilities",
+                    "locales": {
+                        "en": {"singular": "Utility", "plural": "Utilities"},
+                        "es": {"singular": "Utilidad", "plural": "Utilidades"}
+                    }
+                }
+            ],
+
+            "items": [
+                {
+                    "categoryId": "websites",
+                    "icon": {
+                        "img": "images/pictures/UNINOTE.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+
+                    "links": [
+                        {"faIcon": "fa-brands fa-github", "href": "https://github.com/OmarUTEC/UniNote-MindTech.git"},
+                        {"faIcon": "fa-brands fa-npm", "href": "https://npm.com"},
+                        {"faIcon": "fa-solid fa-link", "href": "https://mindtech.vercel.app/"}
+                    ],
+
+                    "media": {
+                        "youtubeVideo": "https://www.youtube.com/watch?v=LVbUNRwpXzw",
+                        "screenshots": {
+                            "aspectRatio": null,
+                            "images": []
+                        }
+                    },
+
+                    "locales": {
+                        "en": {
+                            "title": "UniNote-MindTech",
+                            "text": "Plataforma web para publicar y compartir apuntes académicos, tanto manuscritos como digitales, organizados por carreras y cursos de UTEC. Desarrollado en el curso de Ingeniería de Software, enfocado en la colaboración estudiantil.",
+                            "tags": ["API", "REST", "Backend", "Fronted", "AWS"]
+                        },
+                        "es": {
+                            "title": "UniNote-MindTech",
+                            "text": "Plataforma web para publicar y compartir apuntes académicos, tanto manuscritos como digitales, organizados por carreras y cursos de UTEC. Desarrollado en el curso de Ingeniería de Software, enfocado en la colaboración estudiantil.",
+                            "tags": ["API", "REST", "Backend", "Fronted", "AWS"]
+                        }
+                    }
+                },
+
+                {
+                    "categoryId": "apps",
+                    "icon": {
+                        "img": "images/pictures/SmartTraffic-logo.webp",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+
+                    "links": [
+                        {"faIcon": "fa-brands fa-github", "href": "https://github.com/OmarUTEC/SmartTraffic-Cloud.git"}
+                    ],
+
+                    "media": {
+                        "youtubeVideo": "https://www.youtube.com/watch?v=d0rjX6TNpkU&list=RDMM&index=28",
+                        "screenshots": {
+                            "aspectRatio": "16:10",
+                            "images": [
+                                "images/pictures/SmartTraffic.png"
+                            ]
+                        }
+                    },
+
+                    "locales": {
+                        "en": {
+                            "title": "SmartTraffic-Cloud",
+                            "text": " Proyecto desarrollado en el curso de Cognitive Computing de una aplicación web que utiliza sensores ultrasónicos, microcontroladores ESP32 y servicios en la nube de AWS para el análisis avanzado de datos y la gestión remota de semáforos.",
+                            "tags": ["Bootstrap", "AWS", "Python"]
+                        },
+                        "es": {
+                            "title": "SmartTraffic-Cloud",
+                            "text": " Proyecto desarrollado en el curso de Cognitive Computing de una aplicación web que utiliza sensores ultrasónicos, microcontroladores ESP32 y servicios en la nube de AWS para el análisis avanzado de datos y la gestión remota de semáforos.",
+                            "tags": ["Bootstrap", "AWS", "Python"]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

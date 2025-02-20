@@ -1,0 +1,80 @@
+{
+    "locales": {
+        "en": {
+            "title": "Education",
+            "title_long_prefix": "This is my",
+            "title_long": "**Educational** Background"
+        },
+
+        "es": {
+            "title": "Educación",
+            "title_long_prefix": "Esta es mi",
+            "title_long": "**Formación** Educativa"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "academic",
+            "component": "ArticleTimeline",
+            "config": {},
+            "locales": {},
+
+            "items": [
+              
+                {
+                    "icon": {
+                        "img": "images/pictures/alura-latam.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": "04/01/2023",
+                        "end": "11/01/2023"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Full-Stack Web Development Program**",
+                            "info": "Oracle Next Education - Alura Latam",
+                            "text": "<p>I completed a specialization program focused on web application development, including:</p> <ul> <li>Frontend Development</li> <li>Backend Development</li> <li>Git & GitHub</li> </ul> <p class='mt-3'>I applied the knowledge acquired in the program to develop readable software and scalable code.</p>",
+                            "tags": []
+                        },
+                        "es": {
+                            "title": "**Full-Stack Web Development Program**",
+                            "info": "Oracle Next Education - Alura Latam",
+                            "text": "<p>Completé un programa de especialización centrado en temas de desarrollo de aplicaciones web, incluyendo:</p> <ul><li>Desarrollo Frontend</li><li>Desarrollo Backend</li><li>Git & Github</li></ul> <p class='mt-3'>Apliqué los conocimientos aquiridos en el Programa para desarrollar un software legible y codigo escalable.</p>",
+                            "tags": []
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                       
+                        "img": "images/pictures/UTEC-Logo.jpg",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": "08/01/2021",
+                        "end": "Present"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Computer Science** Student",
+                            "info": "University of Engineering and Technology",
+                            "text": "<p>Computer Science student passionate about technology and software development. Committed to creating innovative solutions that optimize processes and improve the user experience. Focused on growing professionally in areas such as web development, artificial intelligence, and cybersecurity, applying technical skills to solve complex problems and make a positive impact.</p>",
+                            "tags": ["DataBases", "Cloud Computing", "Artificial Intelligence", "Analyze and Design of Algorithms"]
+                        },
+                        "es": {
+                            "title": "**Licenciatura en Ciencias de la Computación**",
+                            "info": "Universidad de Ingeniería y Tecnología",
+                            "text": "<p>Estudiante de Computer Sciencie apasionado por la tecnología y el desarrollo de software. Comprometido con la creación de soluciones innovadoras que optimicen procesos y mejoren la experiencia del usuario. Enfocado en crecer profesionalmente en áreas como desarrollo web, inteligencia artificial y ciberseguridad, aplicando habilidades técnicas para resolver problemas complejos y generar un impacto positivo.</p>",
+                            "tags": ["Bases de Datos", "Computación en la Nube", "Inteligencia Artificial", "Análisis y Diseño de Algoritmos"]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

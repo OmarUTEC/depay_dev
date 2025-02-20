@@ -1,0 +1,152 @@
+{
+    "locales": {
+        "en": {
+            "title": "Welcome!",
+            "title_menu": "About me",
+            "title_long_prefix": "Hello...",
+            "title_long": "I'm **Omar Chavarria!**"
+        },
+
+        "es": {
+            "title": "¡Saludos!",
+            "title_menu": "Sobre mí",
+            "title_long_prefix": "Hola...",
+            "title_long": "Soy **Omar Chavarria!**"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "contact_list",
+            "component": "ArticleGrid",
+            "config": {
+                "ignorePaddingTop": true,
+                "format": "inline"
+            },
+            "locales": {
+                "en": {},
+                "es": {}
+            },
+
+            "items": [
+                {
+                    "value": "Lima 🇵🇪",
+                    "links": [
+                        {"href": null}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-city",
+                        "faColors": {"bg": null, "fill": null}
+                    }
+                },
+                {
+                    "value": "@omarch",
+                    "links": [
+                        {"href": "https://github.com/OmarUTEC"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-github",
+                        "faColors": {"bg": null, "fill": null}
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": "short_description",
+            "component": "ArticleInfoBlock",
+            "config": {},
+            "locales": {
+                "en": {"title": "**A little bit** about me..."},
+                "es": {"title": "**Un poco** sobre mí..."}
+            },
+
+            "items": [
+                {
+                    "icon": {
+                        "img": "images/svg/logo.svg",
+                        "fa": null,
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {"text": "<p>I am currently a Computer Science student at UTEC <b>with knowledge in Algorithm Analysis and Design, and Cloud Computing.</b> I also have hands-on experience with C++, C#, Python, React and AWS in production environments.</p><p>This diverse background gives me the flexibility to adapt to a wide range of project needs.</p><p>I look forward to collaborating <b>with you!</b>"},
+                        "es": {"text": "<p>Actualmente soy estudiante de Ciencia de la Computación en UTEC <b>con conocimientos en Análisis y Diseño de Algoritmos, Computación en la Nube.</b> También tengo experiencia práctica en entornos de producción con C++, C#, Python, React y AWS.</p><p>Este variado historial me permite adaptarme a una amplia gama de necesidades de proyectos.</p><p>¡Espero con interés colaborar <b>contigo!</b></p>"}
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": "interests",
+            "component": "ArticleGrid",
+            "config": {
+                "format": "grid"
+            },
+            "locales": {
+                "en": {"title": "Personal **interests**"},
+                "es": { "title": "Intereses **personales**" }
+            },
+
+            "items": [
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-chess-king",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "Playing Chess",
+                            "info": "I play in chess tournaments, both national and international (online)."
+                        },
+                        "es": {
+                            "title": "Jugar Ajedrez",
+                            "info": "Participo en diferentes campeonatos de ajedrez a nivel Nacional e Internacional(Online)"
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-camera-retro",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "Photography",
+                            "info": "Taking pictures of nature and people."
+                        },
+                        "es": {
+                            "title": "Fotógrafía",
+                            "info": "Tomar fotografías de paisajes y retratos."
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-code",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "Programming",
+                            "info": "I enjoy learning new programming languages and technologies."
+                        },
+                        "es": {
+                            "title": "Programación",
+                            "info": "Disfruto aprendiendo nuevos lenguajes de programación y tecnologías."
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,185 @@
+{
+    "locales": {
+        "en": {
+            "title": "Awards",
+            "title_menu": "Achievements",
+            "title_long_prefix": "Here are my",
+            "title_long": "Career **Achievements**"
+        },
+
+        "es": {
+            "title": "Logros",
+            "title_menu": "Logros",
+            "title_long_prefix": "Aquí están mis",
+            "title_long": "**Logros** Profesionales"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "certifications",
+            "component": "ArticleCards",
+            "config": {},
+            "locales": {
+                "en": { "title": "Certifications" },
+                "es": { "title": "Certificaciones" }
+            },
+
+            "items": [
+                {
+                    "icon": {
+                        "img": "images/pictures/utec-logo.png",
+                        "fa": "",
+                        "faColors": {"bg": "#326CE5", "fill": "#EEE"}
+                    },
+                    "dates": {
+                        "start": "12/01/2024",
+                        "end": null
+                    },
+                    "links": [
+                        { "string": "see_certification", "href": "https://drive.google.com/file/d/1Nc3yrbRmlaXApP6duYGmoiVAJWTkiiNU/view?usp=sharing" }
+                    ],
+                    "locales": {
+                        "en": {
+                            "title": "**Introducción a la Inteligencia Artificial - UTEC**",
+                            "text": "Manejo de la Inteligencia Artificial"
+                        },
+                        "es": {
+                            "text": "Manejo de la Inteligencia Artificial"
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": "images/pictures/nvidia-logo.png",
+                        "fa": ""
+                       
+                    },
+                    "dates": {
+                        "start": "11/01/2023",
+                        "end": null
+                    },
+                    "links": [
+                        { "string": "see_certification", "href": "https://learn.nvidia.com/certificates?id=5371646a10ff40d2adbcf09165ca41c6" }
+                    ],
+                    "locales": {
+                        "en": {
+                            "title": "**Fundamentals of Deep Learning** - NVIDIA",
+                            "text": ""
+                        },
+                        "es": {
+                            "text": "Fundamentos de Deep Learning"
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": "images/pictures/cpc.png",
+                        "fa": null,
+                        "faColors": {"bg": "#007396", "fill": "#EEE"}
+                    },
+                    "dates": {
+                        "start": "08/16/2024",
+                        "end": null
+                    },
+                    "links": [
+                        { "string": "see_certification", "href": "https://drive.google.com/file/d/15tRG5Bz6zoghCkUtnrXINEP3mv-pJ6aG/view?usp=sharing" }
+                    ],
+                    "locales": {
+                        "en": {
+                            "title": "**Training Camp UTEC 2024**",
+                            "text": "Fundamentos de la Programación Competitiva con Mariano Crosetti"
+                        },
+                        "es": {
+                            "text": "Fundamentos de la Programación Competitiva con Mariano Crosetti"
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": "images/pictures/indra.jpg",
+                        "fa": null,
+                        "faColors": {"bg": "#47A248", "fill": "#EEE"}
+                    },
+                    "dates": {
+                        "start": "07/22/2024",
+                        "end": null
+                    },
+                    "links": [
+                        { "string": "see_certification", "href": "https://drive.google.com/file/d/1r846NN0jZOkbFL59njHLMwWqs6CLGLrY/view?usp=sharing" }
+                    ],
+                    "locales": {
+                        "en": {
+                            "title": "**Hackday 2024** Indra",
+                            "text": "Hackday 2024 Reto de Ciberseguridad realizado en la ciudad de Lima-Perú"
+                        },
+                        "es": {
+                            "text": "Hackday 2024 Reto de Ciberseguridad realizado en la ciudad de Lima-Perú"
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": "images/pictures/fortined.png",
+                        "fa": null,
+                        "faColors": {"bg": "#47A248", "fill": "#EEE"}
+                    },
+                    "dates": {
+                        "start": "02/24/2024",
+                        "end": null
+                    },
+                    "links": [
+                        { "string": "see_certification", "href": "https://training.fortinet.com/pluginfile.php/1/tool_certificate/issues/1732067973/5217066415JC.pdf" }
+                    ],
+                    "locales": {
+                        "en": {
+                            "title": "**Fortinet Certified Fundamentals in Cybersecurity**",
+                            "text": " Fundamentals in Cybersecurity"
+                        },
+                        "es": {
+                            "text": " Fundamentals in Cybersecurity"
+                        }
+                    }
+                }
+            ]
+        },
+
+
+
+        {
+            "id": "awards",
+            "component": "ArticleThread",
+            "config": {},
+            "locales": {
+                "en": { "title": "Awards" },
+                "es": { "title": "Premios" },
+                "fr": { "title": "Récompenses" },
+                "ko": { "title": "수상 내역" }
+            },
+
+            "items": [
+                {
+                    "dates": {
+                        "start": "06/01/2024",
+                        "end": null
+                    },
+                    "links": [
+                        { "string": "more_info", "href": "https://mindtech.vercel.app/" }
+                    ],
+                    "locales": {
+                        "en": {
+                            "title": "**Best Project in the Software Engineering Course** – UNINOTE",
+                            "info": "UTEC",
+                            "text": "Project developed using AWS technology to securely store university students shared documents in the cloud."
+                        },
+                        "es": {
+                            "title": "**Mejor Proyecto del curso de Ingeniería de Software** – UNINOTE",
+                            "info": "UTEC",
+                            "text": "Proyecto desarrollado con tecnología AWS para almacenar de manera segura en la nube documentos compartidos por los estudiantes de la universidad."
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
